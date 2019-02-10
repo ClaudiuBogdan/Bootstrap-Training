@@ -16,6 +16,7 @@
       html {
         height: 100vh;
         background: yellow;
+        color: white;
       }
       .container {
         background: green;
@@ -35,22 +36,22 @@
     </style>
   </head>
   <body>
-    <div class="container d-flex h-100 flex-column">
+    <div class="container-fluid d-flex h-100 flex-column">
       <div id="item1" class="row">
-        <div class="col ">
-          <header class="bg-primary">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-6 mx-auto bg-primary">
+          <header class="text-center">
             Header
           </header>
         </div>
       </div>
       <div id="item2" class="row h-60">
-        <div class="col">
-          <main class="bg-info">Main</main>
+        <div class="col-12 col-md-8 col-lg-6 col-xl-6 mx-auto bg-info">
+          <main class="text-center">Main</main>
         </div>
       </div>
       <div id="item3" class="row h-20">
-        <div class="col">
-          <footer class="bg-danger">Footer</footer>
+        <div class="col-12 col-md-8 col-lg-6 col-xl-6 mx-auto bg-danger">
+          <footer class="text-center">Footer</footer>
         </div>
       </div>
     </div>
